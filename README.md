@@ -2,20 +2,28 @@
 
 You have been asked to begin writing a OOPS application which will create two types of objects: Circle and Rectangle. 
 
-Class name:	Rectangle<br />
-Field:		Height (int)<br />
-			Width (int)<br />
-Method:		getHeight<br />
-			getWidth<br />
-			calculateArea<br />
-			isSquare – will return if the rectangle is a square or not (height = width)<br />
-			displayAll – will display the dimensions of the shape and its area<br />
+## Rectangle
+| Class name              | Rectangle
+|-------------------------|-------------------------|
+| Field                   | Height (int)
+|                         | Width (int)
+|-------------------------|-------------------------|
+| Method                  | getHeight
+|                         | getWidth
+|                         | calculateArea
+|                         | isSquare
+|                         | displayAll
+|-------------------------|-------------------------|
 
-Class name:	Circle<br />
-Field:		Radius (double)<br />
-Method:		getRadius<br />
-			calculateArea (2πr) or (2 * 3.14 *radius) <br />
-			displayAll – will display the radius of the shape and its area<br />
+## Circle
+| Class name              | Circle
+|-------------------------|-------------------------|
+| Field                   | Radius (double)
+|-------------------------|-------------------------|
+| Method                  | getRadius
+|                         | calculateArea
+|                         | displayAll
+|-------------------------|-------------------------|
 
 A sample run has also been produced to show you what is required. <br />
 

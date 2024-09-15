@@ -19,35 +19,35 @@ namespace ShapeApp
         }
 
         // Method 1: GetHeight
-        public int GetHeight()
+        public int getHeight()
         {
             return height;
         }
 
         // Method 2: GetWidth
-        public int GetWidth()
+        public int getWidth()
         {
             return width;
         }
 
         // Method 3: Calculate the Area
-        public int CalcArea()
+        public int calculateArea()
         {
             return height * width;
         }
 
-        // Method 4: IsItSquare
-        public bool IsItSquare()
+        // Method 4: isSquare 
+        public bool isSquare()
         {
             return height == width;
         }
 
-        // Method 5: DisplayAll
-        public void DisplayAll()
+        // Method 5: displayAll 
+        public void displayAll()
         {
-        string shapeType = IsItSquare() ? "This is a Square" : "This is a Rectangle";
+        string shapeType = isSquare() ? "This is a Square" : "This is a Rectangle";
             // Return if the rectangle is a square or not (height = width) with the calculated area
-            Console.WriteLine($"{shapeType} - Height: {height}, Width: {width}, Calculated Area is: {CalcArea()}");
+            Console.WriteLine($"{shapeType} - Height: {height}, Width: {width}, Calculated Area is: {calculateArea()}");
         }
     }
 
@@ -55,37 +55,37 @@ namespace ShapeApp
     class Circle
     {
         // Field|variable to hold inputted dimensions as double
-        public double radius;
+        public double Radius;
 
         // Constructor that accepts an input as a double (a floating-point number of 15-digit precision)
-        public Circle(double radius)
+        public Circle(double Radius)
         {
-            this.radius = radius;
+            this.Radius = Radius;
         }
 
         // Math.PI is a double-precision constant provided by the .NET framework.
         
 
         // Method 1: CalcArea
-        public double CalcArea()
+        public double calculateArea()
         {
             // To calculate the area of a circle (π), PI x radius x radius.
-            return Math.PI * radius * radius;
+            return Math.PI * Radius * Radius;
         }
 
         // Method 2: CalcCircum
-        public double CalcCircum()
+        public double calculateCircumference()
         {
             // To calculate the circumference of a circle, 2 * PI * radius
-            return 2 * Math.PI * radius;
+            return 2 * Math.PI * Radius;
         }
 
         // Method 5: DisplayAll
-        public void DisplayAll()
+        public void displayAll()
         {
-            Console.WriteLine($"Radius: {radius}");
-            Console.WriteLine($"Area: {CalcArea():F2}");
-            Console.WriteLine($"Circumference: {CalcCircum():F2}");
+            Console.WriteLine($"Radius: {Radius}");
+            Console.WriteLine($"Area: {calculateArea():F2}");
+            Console.WriteLine($"Circumference: {calculateCircumference():F2}");
         }
 
     }

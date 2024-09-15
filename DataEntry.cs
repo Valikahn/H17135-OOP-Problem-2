@@ -36,7 +36,7 @@ namespace Problem_2
                     Console.WriteLine();
 
                     Rectangle rectangle = new Rectangle(height, width);
-                    rectangle.DisplayAll();
+                    rectangle.displayAll();
                 }
                 else if (choice == "2")
                 {
@@ -46,7 +46,7 @@ namespace Problem_2
                     Console.WriteLine();
 
                     Circle circle = new Circle(radius);
-                    circle.DisplayAll();
+                    circle.displayAll();
                 }
                 else if (choice == "0")
                 {
