@@ -9,7 +9,7 @@ Method:		getHeight<br />
 			getWidth<br />
 			calculateArea<br />
 			isSquare – will return if the rectangle is a square or not (height = width)<br />
-			displayAll – will display the dimensions of the shape and its area<br /><br />
+			displayAll – will display the dimensions of the shape and its area<br />
 
 Class name:	Circle<br />
 Field:		Radius (double)<br />
