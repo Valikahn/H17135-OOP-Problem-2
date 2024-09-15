@@ -3,9 +3,9 @@
 You have been asked to begin writing a OOPS application which will create two types of objects: Circle and Rectangle. 
 
 ## Rectangle
-| Class name              | Rectangle
+|             | 
 |-------------------------|-------------------------|
-| Field                   | Height (int)
+| Class name              | Rectangle
 |                         | Width (int)
 | Method                  | getHeight
 |                         | getWidth
