@@ -56,3 +56,7 @@ Press 1 for rectangle, 2 for Circle, 3 to exit: 3
 HINTS – Use a loop and if statement in the main program. To format the area of a circle to two decimal places use the predefined function.
 
 For example:  DecimalFormat df = new DecimalFormat("#.##"); 
+
+## References
+McGrath, M. (2022). C# Programming - modern coding with C# 10 and .NET 6. 3rd Edition
+https://www.amazon.co.uk/Programming-easy-steps-3rd-Updated/dp/1840789735
