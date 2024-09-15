@@ -3,7 +3,10 @@
 You have been asked to begin writing a OOPS application which will create two types of objects: Circle and Rectangle. 
 
 ## Rectangle
-| Class name              | Rectangle
+| Object                  | Rectangle
+|-------------------------|-------------------------|
+| Class Name              | Rectangle
+| Fields	              | Height (int)
 |                         | Width (int)
 | Method                  | getHeight
 |                         | getWidth
@@ -11,13 +14,20 @@ You have been asked to begin writing a OOPS application which will create two ty
 |                         | isSquare
 |                         | displayAll
 
+isSquare – will return if the rectangle is a square or not (height = width)<br />
+displayAll – will display the dimensions of the shape and its area<br />
+
 ## Circle
-| Class name              | Circle
+| Object                  | Circle
 |-------------------------|-------------------------|
+| Class Name              | Circle
 | Field                   | Radius (double)
 | Method                  | getRadius
 |                         | calculateArea
 |                         | displayAll
+
+calculateArea (2πr) or (2 * 3.14 *radius) <br />
+displayAll – will display the radius of the shape and its area. <br />
 
 A sample run has also been produced to show you what is required. <br />
 
