@@ -1,4 +1,4 @@
-﻿# Problem 2
+﻿# Problem 2 - Shapes
 
 You have been asked to begin writing a OOPS application which will create two types of objects: Circle and Rectangle. 
 
