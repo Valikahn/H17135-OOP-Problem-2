@@ -12,7 +12,6 @@ You have been asked to begin writing a OOPS application which will create two ty
 |                         | calculateArea
 |                         | isSquare
 |                         | displayAll
-|-------------------------|-------------------------|
 
 ## Circle
 | Class name              | Circle
@@ -21,7 +20,6 @@ You have been asked to begin writing a OOPS application which will create two ty
 | Method                  | getRadius
 |                         | calculateArea
 |                         | displayAll
-|-------------------------|-------------------------|
 
 A sample run has also been produced to show you what is required. <br />
 
