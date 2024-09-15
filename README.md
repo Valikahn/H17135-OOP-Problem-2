@@ -1,4 +1,10 @@
-﻿# Problem 2 - Shapes
+﻿<div align="center">
+    <a href="https://github.com/Valikahn/lamp" target="_blank">
+        <img alt="lamp" src="https://github.com/Valikahn/H17135-OOP-Problem-1/blob/master/img/oop.jpg">
+    </a>
+</div>
+
+# Problem 2 - Shapes
 
 You have been asked to begin writing a OOPS application which will create two types of objects: Circle and Rectangle. 
 
