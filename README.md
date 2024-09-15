@@ -7,7 +7,6 @@ You have been asked to begin writing a OOPS application which will create two ty
 |-------------------------|-------------------------|
 | Field                   | Height (int)
 |                         | Width (int)
-|-------------------------|-------------------------|
 | Method                  | getHeight
 |                         | getWidth
 |                         | calculateArea
@@ -19,7 +18,6 @@ You have been asked to begin writing a OOPS application which will create two ty
 | Class name              | Circle
 |-------------------------|-------------------------|
 | Field                   | Radius (double)
-|-------------------------|-------------------------|
 | Method                  | getRadius
 |                         | calculateArea
 |                         | displayAll
