@@ -20,8 +20,8 @@ Method:		getRadius<br />
 A sample run has also been produced to show you what is required. <br />
 
 Sample program running:<br />
-```
 
+```
 Shapes Problem
 Press 1 for rectangle, 2 for Circle, 3 to exit: 2
 Please enter radius: 3
